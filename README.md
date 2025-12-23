@@ -4,6 +4,7 @@ A simple Student Management System built using Spring Boot that demonstrates the
 This project allows users to add students and view a list of students using Thymeleaf as the view layer and Spring Data JPA for database operations.
 
 
+
 📌 Project Overview
 
 This application is designed to understand how a Spring Boot MVC application works end-to-end.
@@ -18,6 +19,7 @@ Data binding
 Database interaction using JPA
 
 Rendering dynamic HTML pages using Thymeleaf
+
 
 
 🛠️ Technologies Used
@@ -37,6 +39,7 @@ Hibernate
 Maven
 
 H2 / MySQL Database
+
 
 
 🧩 Project Architecture (MVC)
@@ -62,23 +65,7 @@ View
 HTML pages rendered using Thymeleaf.
 
 
-📁 Project Structure
-student-management-springboot
-│── src/main/java/com/example/student
-│   ├── controller
-│   ├── service
-│   ├── repository
-│   └── model
-│
-│── src/main/resources
-│   ├── templates
-│   │   ├── students.html
-│   │   └── add-student.html
-│   └── application.properties
-│
-│── pom.xml
-│── README.md
-│── .gitignore
+
 
 
 ✨ Features
@@ -92,6 +79,7 @@ Form data binding using Spring MVC
 Automatic database operations using Spring Data JPA
 
 Clean MVC separation
+
 
 
 🔄 Application Flow
@@ -111,6 +99,7 @@ User adds a student via form
 Student is saved and user is redirected back to the list
 
 
+
 ▶️ How to Run the Project
 
 Clone the repository:
@@ -127,6 +116,7 @@ Run the main Spring Boot application class
 Open your browser and visit:
 
 http://localhost:8080/students
+
 
 
 🗄️ Database Configuration
